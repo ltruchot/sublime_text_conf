@@ -1,0 +1,43 @@
+<snippet>
+    <content><![CDATA[/**
+ * @file ${2:class}.js
+ * @author Loïc TRUCHOT
+ */
+
+/**
+ * @module ${1:package}/${2:class}
+ * @description  A class as dojo module representing a "live service" MosaicItem widget child of a Mosaic parent.
+ */
+define([
+    'dojo/_base/declare',
+    'dijit/_WidgetBase',
+    'dijit/_TemplatedMixin',
+    'dijit/_WidgetsInTemplateMixin',
+    'dojo/text!./templates/${2:class}.html'
+],
+
+function(declare, _WidgetBase, _TemplatedMixin,  _WidgetsInTemplateMixin, template) {
+
+    return declare([_WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin], {
+
+        /**
+         * @member {string} templateString
+         * @description the html template
+         * @see dijit/_Templated
+         */
+        templateString: template,
+
+        /**
+         * @constructor
+         * @description constructor of the object. Initialize members
+         */
+        constructor: function() {
+            console.log('${1:package}/${2:class}@constructor');
+            $0
+        }${3:,}
+    });
+});
+]]></content>
+    <tabTrigger>widget</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

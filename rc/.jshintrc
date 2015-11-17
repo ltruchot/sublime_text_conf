@@ -20,4 +20,4 @@
         //true = readable and writeable global
         "wptv": true //Webtv JS Client global
     }    
-}
+}  

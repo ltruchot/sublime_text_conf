@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[/**
+ * @method ${1:methodName}
+ * @description ${2:methodDescription}
+ */
+${1:methodName}: function() {
+    console.log('${3:package}/${4:class}@${1:methodName}');
+    $0
+}${5:,}
+]]></content>
+<tabTrigger>method0</tabTrigger>
+<scope>source.js</scope>
+</snippet>

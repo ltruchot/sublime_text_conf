@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[/**
+ * @method postCreate
+ * @description widget lifecycle method triggered when it's constructed, but NOT attached to the DOM
+ * @extends dijit/_Widget
+ */
+postCreate: function() {
+console.log('${1:package}/${2:class}@postCreate');
+    this.inherited(arguments);
+    $0
+}${3:,}
+]]></content>
+<tabTrigger>postCreate</tabTrigger>
+<scope>source.js</scope>
+</snippet>

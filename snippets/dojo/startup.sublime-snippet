@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[/**
+ * @method startup
+ * @description widget lifecycle method triggered when all is launched and DOM is loaded
+ */
+startup: function () {
+    console.log('${1:package}/${2:class}@startup');
+	this.inherited(arguments);
+	$0
+}${3:,}
+]]></content>
+<tabTrigger>startup</tabTrigger>
+<scope>source.js</scope>
+</snippet>

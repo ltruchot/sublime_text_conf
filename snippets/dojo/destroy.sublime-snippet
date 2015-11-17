@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[/**
+ * @method destroy
+ * @description widget lifecycle method that destroys owned handlers, DOM rendering and widget itself
+ * @extends dijit/_WidgetBase
+ */
+destroy: function() {
+    console.log('${1:package}/${2:class}@destroy');
+    this.inherited(arguments);
+    $0
+}${3:,}
+]]></content>
+<tabTrigger>destroy</tabTrigger>
+<scope>source.js</scope>
+</snippet>

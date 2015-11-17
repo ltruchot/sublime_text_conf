@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[/**
+ * @method ${1:methodName}
+ * @description ${2:methodDescription}
+ * @param {${3:parameterType}} ${4:parameterName} ${5:parameterDescription}
+ */
+${1:methodName}: function(/*${3:parameterType}*/ ${4:parameterName}) {
+	console.log("${6:package}/${7:class}@${1:methodName}");
+	$0
+}${8:,}
+]]></content>
+	<tabTrigger>method1</tabTrigger>
+<scope>source.js</scope>
+</snippet>
